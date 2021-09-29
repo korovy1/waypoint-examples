@@ -7,7 +7,7 @@ app "example-java" {
         }
         registry {
               use "docker" {
-                image = "korovy1/example-java"
+                image = "example-java"
                 tag   = "latest"
               }
             }
